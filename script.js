@@ -13,7 +13,7 @@ let guessNumBtn = document
       resultBox.innerHTML = "traženi broj je veći od unešenog";
       numOfTries += 1;
       console.log(numOfTries);
-    } else {
+    } else if (numBox === randomNum) {
       resultBox.innerHTML = `<strong>bravo, pogodili ste iz ${numOfTries}. puta</strong>`;
     }
   });
