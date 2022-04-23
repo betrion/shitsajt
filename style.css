@@ -1,0 +1,61 @@
+body {
+  max-width: max-content;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  color: whitesmoke;
+  background-color: rgba(9, 4, 32, 0.87);
+}
+img {
+  height: 5rem;
+  padding: 0rem;
+  margin: 0rem;
+}
+ul {
+  list-style: none;
+}
+button {
+  background-color: pink;
+  border-radius: 0.2rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: pink;
+}
+
+.content {
+  padding-top: 2rem;
+  margin: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.footerdiv ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.recommended-links,
+h4 {
+  font-size: medium;
+  margin: 0rem;
+}
+
+#side-navbar {
+  background-color: grey;
+}
+#side-navbar li {
+  background-color: red;
+}
