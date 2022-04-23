@@ -9,11 +9,11 @@ let guessNumBtn = document
     if (numBox.value < randomNum) {
       resultBox.innerHTML = "traženi broj je manji od unešenog";
       numOfTries += 1;
-    } else if (numBox > randomNum) {
+    } else if (numBox.value > randomNum) {
       resultBox.innerHTML = "traženi broj je veći od unešenog";
       numOfTries += 1;
       console.log(numOfTries);
-    } else if (numBox === randomNum) {
+    } else {
       resultBox.innerHTML = `<strong>bravo, pogodili ste iz ${numOfTries}. puta</strong>`;
     }
   });
